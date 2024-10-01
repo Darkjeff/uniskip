@@ -25,17 +25,18 @@ ModuleUniskipDesc = Module de génération de lien de paiement via la palteforme
 #
 # Admin page
 #
-UniskipSetup = Setup Uniskip
-UniskipSetupPage = Setup Uniskip
-UNISKIP_LOGIN = Email login
-UNISKIP_LOGINTooltip = Email Id for Unickip
-UNISKIP_PASSWORD=Password Uniskip
-UNISKIP_PASSWORDTooltip=Password Uniskip
-UniskipSetupPageDesc = Go to <a href="https://www.uniskip.store/">Uniksip</a> for more information
+UniskipSetup = Paramétrage de Uniskip
+Settings = Paramètrage
+UniskipSetupPage = Paramétrage de Uniskip
+UNISKIP_LOGIN = Identifiant email Uniskip
+UNISKIP_LOGINTooltip = Email utilisé sur l'application
+UNISKIP_PASSWORD=Mot de passe Uniskip
+UNISKIP_PASSWORDTooltip=Mot de passe Uniskip
+UniskipSetupPageDesc = Rendez vous sur <a href="https://www.uniskip.store/">Uniksip</a> pour plus d'informations
 
 #
 # About page
 #
-About = About
-UniskipAbout = About Uniskip
-UniskipAboutPage = Uniskip about page
+About = A Propos
+UniskipAbout = A Propos du module Uniskip
+UniskipAboutPage = Page à propos Uniskip
