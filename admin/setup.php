@@ -90,12 +90,15 @@ $useFormSetup = 1;
 $formSetup = new FormSetupUniskip($db);
 
 // Enter here all parameters in your setup page
-
+if (!function_exists('curl_init')) {
+	$item = $formSetup->newItem('UniskipMissingPhpCurlExt')->setAsTitle();
+} else {
 // Setup conf for selection of an URL
-$item = $formSetup->newItem('UniskipSetupPageDesc')->setAsTitle();
-$item = $formSetup->newItem('UNISKIP_LOGIN');
-$item = $formSetup->newItem('UNISKIP_PASSWORD')->setAsGenericPassword();
-
+	$item = $formSetup->newItem('UniskipSetupPageDesc')->setAsTitle();
+	$item = $formSetup->newItem('UNISKIP_URL')->defaultFieldValue = 'https://sandboxapi2.uniskip.com/';
+	$item = $formSetup->newItem('UNISKIP_LOGIN');
+	$item = $formSetup->newItem('UNISKIP_PASSWORD')->setAsGenericPassword();
+}
 
 $setupnotempty += count($formSetup->items);
 

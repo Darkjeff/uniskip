@@ -33,6 +33,8 @@ UNISKIP_LOGINTooltip = Email utilisé sur l'application
 UNISKIP_PASSWORD=Mot de passe Uniskip
 UNISKIP_PASSWORDTooltip=Mot de passe Uniskip
 UniskipSetupPageDesc = Rendez vous sur <a href="https://www.uniskip.store/">Uniksip</a> pour plus d'informations
+UNISKIP_URL=URL de l'API Uniskip
+UniskipMissingPhpCurlExt=L'extension PHP php-curl est necessaire pour ce module, veuillez bous rapproché de votre administrateur systéme pour l'installer
 
 #
 # About page
@@ -40,3 +42,16 @@ UniskipSetupPageDesc = Rendez vous sur <a href="https://www.uniskip.store/">Unik
 About = A Propos
 UniskipAbout = A Propos du module Uniskip
 UniskipAboutPage = Page à propos Uniskip
+
+#
+# Extrafields
+#
+UniskipPaymentURL = Lien de paiement Uniskip
+
+#
+# Message
+#
+UniskipSetupNotComplete = Le module Uniskip est activé, mais la configuration est incompléte. Impossible de créer un lien de paiement
+UniskipFailToGetAPIKey=Uniskip : Impossible de récupérer un token API, vérifier votre configuration
+UniskipFailToGetAccountInfo=Uniskip : Impossible de récupérer Compte interne, vérifier votre configuration
+UniskipFailToURLPayment=Uniskip : Impossible de récupérer l'URL de paiement, vérifier votre configuration
