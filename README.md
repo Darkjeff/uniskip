@@ -2,18 +2,18 @@
 
 ## Features
 
-This module proveide a payment URL on Validate Invoice with uniskip API [Uniksip](https://www.uniskip.store/).
-
-Other external modules are available on [Dolistore.com](https://www.dolistore.com).
+This module provide a payment URL on Validate Invoice with uniskip API [Uniksip](https://www.uniskip.store/).
 
 ## Translations
 
 Translations can be completed manually by editing files into directories *langs*.
 
-
 ## Installation
 
-Prerequisites: You must have the Dolibarr ERP CRM software installed. You can down it from [Dolistore.org](https://www.dolibarr.org).
+Prerequisites:
+
+ - You must have the Dolibarr ERP CRM software installed. You can download it from [Dolistore.org](https://www.dolibarr.org).
+ - have php-curl extension install
 
 ### From the ZIP file and GUI interface
 
@@ -26,8 +26,8 @@ Note: If this screen tell you that there is no "custom" directory, check that yo
 
 Clone the repository in ```https://github.com/Darkjeff/uniskip.git```
 
+in "custom" folder (check our conf.php settings)
 ```sh
-cd ....../custom
 git clone git@github.com:Darkjeff/uniskip.git uniskip
 ```
 
